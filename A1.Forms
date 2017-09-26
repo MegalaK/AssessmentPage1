@@ -1,0 +1,93 @@
+<p><!DOCtype html>
+<html>
+<head>
+        <title> Forms</title>
+        <style type="text/css"></style>
+        <script type="text/javascript"></script>
+</head>
+<body style="background-color:lightgrey">
+
+	<input type="button" value="Mastery">
+	<input type="button" value="Segments">
+	<hr>
+	<hr><p></p>
+
+
+  <form>
+   <fieldset>
+    <legend>Mastery:</legend>
+  
+  <b>Percentage 1 </b>
+  <input type="text" value=""> &nbsp;
+   <b>Percentage 2 </b>
+  <input type="text" value="">&nbsp;
+  <b>Percentage 3 </b>
+  <input type="text" value=""> &nbsp;
+  <b>Percentage 4</b>
+  <input type="text" value=""> &nbsp;
+  <b>Percentage 5 </b>
+  <input type="text" value=""> &nbsp;
+  <br><br>
+
+
+  <b>Assessment Type</b>
+  <br>
+  <select name="Scrb1">
+  	<option value="Please select" selected>Please select</option>
+    <option value="Homework">Homework</option>
+    <option value="Quiz">Quiz</option>
+    <option value="Exam">Exam</option>
+    <option value="Poll">Poll</option>
+  </select>
+
+</fieldset>
+</form> 
+<br><br>
+
+
+
+<form>
+	<fieldset>
+		<legend>Assessment details</legend>
+		<b>offer mode</b>
+		<br>
+	    <select name="Scrb2">
+	      <option value="please seect">please select
+	      </option>
+	      <option value="assigned only">assigned only</option>
+	      <option value="offer mode">offer mode
+	      </option> 
+	    </select>
+          
+      <br><br>
+     <b> Assessment Name</b>
+     <br>
+     <input type="text" value="">&nbsp;&nbsp;&nbsp;&nbsp;
+
+     <b>Duration</b>
+     <input type="text" value="30 minutes">
+     <br><br><br>
+
+     
+
+    <b>Start Date and Time</b>
+    <br>
+    <input type="datetime-local" name="Startdatetime">
+    
+    
+	</fieldset>
+</form>
+<br><br>
+
+<form>
+	<fieldset>
+		<legend>Sections
+		</legend>
+	</fieldset>
+</form>
+	
+</body>
+</html>
+
+
+</p>
