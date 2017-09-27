@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+header, footer {
+    padding: 10px;
+    color: white;
+    background-color: grey;
+}
+nav ul {
+    padding: 0;
+}
+article {
+    margin: 5px;
+    padding: 10px;
+    color:black;
+    background-color: lightgreen;
+}
+em{
+	font-style:italic;
+}
+</style>
+</head>
+<body>
+
+
+<hr>
+<header>
+
+	<h2>This is the WebPage for World News</h2>
+</header>
+<hr>
+<br>
+
+	<nav>
+		<a href="/News/"><b> NEWS></b></a>
+		<a href="" ="/US/">US</a>
+		<a href="" ="/WORLD/">WORLD</a>
+		<a href="" ="/POLITICS/">POLITICS</a>
+		<a href="" ="/FACT CHECK/">FACT CHECK</a>
+		<a href="" ="/OPINION/">OPINION</a>
+		<a href="" ="/GOOD NEWS/">GOOD NEWS</a>
+		<a href="" ="/LOCAL/">LOCAL</a>
+</nav>
+
+<br>
+
+<article>
+<h2>HTML5</h2>
+<h3>Here are the new elements in HTML5</h3>
+<p>I have listed all the HTML5 new elements which I have used. </p>
+<h4>Here are the used elements:</h4>
+<ul>
+  <li>Header</li>
+  <li>Footer</li>
+  <li>nav</li>
+  <li>article</li>
+  <li>em</li>
+  <li>figure</li>
+  <li>figcaption</li>
+</ul>
+
+</article>
+
+<figure>
+	<img src="C:\HTML-Work\scenic-pictures.jpg" alt="This is a picture" height="200" width="200">
+	<br>
+	<figcaption>Fig1- This is a scenic picture. </figcaption>
+</figure>
+<br>
+
+<em>This is an emphasized text</em>
+	<footer>
+		<p> designed by Megala</p>
+		
+	</footer>
+</body>
+</html>
