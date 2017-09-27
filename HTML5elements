@@ -63,7 +63,7 @@ em{
 </article>
 
 <figure>
-	<img src="C:\HTML-Work\scenic-pictures.jpg" alt="This is a picture" height="200" width="200">
+	<img src="Images/scenic-pictures.jpg" alt="This is a picture" height="200" width="200">
 	<br>
 	<figcaption>Fig1- This is a scenic picture. </figcaption>
 </figure>
