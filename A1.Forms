@@ -2,8 +2,13 @@
 <html>
 <head>
         <title> Forms</title>
-        <style type="text/css"></style>
+        <style type="text/css">
+        	.css1{
+        		float:left;
+        	}
+        </style>
         <script type="text/javascript"></script>
+
 </head>
 <body style="background-color:lightgrey">
 
@@ -18,15 +23,15 @@
     <legend>Mastery:</legend>
   
   <b>Percentage 1 </b>
-  <input type="text" value=""> &nbsp;
+  <input type="text" placeholder="enter value"> &nbsp;
    <b>Percentage 2 </b>
-  <input type="text" value="">&nbsp;
+  <input type="text" placeholder="enter value">&nbsp;
   <b>Percentage 3 </b>
-  <input type="text" value=""> &nbsp;
+  <input type="text" placeholder="enter value"> &nbsp;
   <b>Percentage 4</b>
-  <input type="text" value=""> &nbsp;
+  <input type="text" placeholder="enter value"> &nbsp;
   <b>Percentage 5 </b>
-  <input type="text" value=""> &nbsp;
+  <input type="text" placeholder="enter value"> &nbsp;
   <br><br>
 
 
@@ -51,30 +56,60 @@
 		<legend>Assessment details</legend>
 		<b>offer mode</b>
 		<br>
+		<div class=css1>
 	    <select name="Scrb2">
-	      <option value="please seect">please select
+	      <option value="please select">please select
 	      </option>
 	      <option value="assigned only">assigned only</option>
 	      <option value="offer mode">offer mode
 	      </option> 
+	  </div>
 	    </select>
+            <b>Retake Policy</b>
+	   
+               <select name="Scrb3">
+               	<div style="float:center;">
+               	
+	    		<option value="Please select">please select</option>
+	    		<option value="Once_only">Once_only</option>
+	    		<option value="Twice_only">Twice_only</option>
+	    		<option value="no_limit">no_limit</option>
+	    		<option value="Once_per_day_Only">Once_per_day_Only</option>
+	    	</div>
+	    	</select>
+
+           <b>Validation Mode</b>
+           <select name="Scrb4">
+               	<div style="float:right;">
+               	
+	    		<option value="Please select">please select</option>
+	    		<option value="Twice_only">Show answer on Submit</option>
+	    		<option value="Show answer on close">Show answer on close</option>
+	    	</div>
+	    	</select>
+
           
       <br><br>
      <b> Assessment Name</b>
      <br>
-     <input type="text" value="">&nbsp;&nbsp;&nbsp;&nbsp;
+     <input type="text" placeholder="Please enter Assignment Name">&nbsp;&nbsp;&nbsp;&nbsp;
 
      <b>Duration</b>
-     <input type="text" value="30 minutes">
+     <input type="text" placeholder="30 minutes">
+
      <br><br><br>
 
      
-
+<div class="css1"
     <b>Start Date and Time</b>
     <br>
     <input type="datetime-local" name="Startdatetime">
     
-    
+    </div>
+    <div style="float:right";
+    <b>Close date and time</b>
+    <input type="datetime-local" name="Enddatetime">
+</div>
 	</fieldset>
 </form>
 <br><br>
@@ -90,4 +125,4 @@
 </html>
 
 
-</p>
+
