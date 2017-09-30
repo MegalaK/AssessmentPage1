@@ -1,13 +1,16 @@
-<p><!DOCtype html>
+<!DOCtype html>
 <html>
 <head>
-        <title> Forms</title>
-        <style type="text/css">
-        	.css1{
-        		float:left;
-        	}
-        </style>
-        <script type="text/javascript"></script>
+  <title> Forms</title>
+  <style type="text/css">
+  .css1{
+    float:left;
+  }
+  .select{
+    word-spacing: 50px;
+  }
+</style>
+<script type="text/javascript"></script>
 
 </head>
 <body style="background-color:lightgrey">
@@ -21,31 +24,31 @@
   <form>
    <fieldset>
     <legend>Mastery:</legend>
-  
-  <b>Percentage 1 </b>
-  <input type="text" placeholder="enter value"> &nbsp;
-   <b>Percentage 2 </b>
-  <input type="text" placeholder="enter value">&nbsp;
-  <b>Percentage 3 </b>
-  <input type="text" placeholder="enter value"> &nbsp;
-  <b>Percentage 4</b>
-  <input type="text" placeholder="enter value"> &nbsp;
-  <b>Percentage 5 </b>
-  <input type="text" placeholder="enter value"> &nbsp;
-  <br><br>
+
+    <b>Percentage 1 </b>
+    <input type="text" placeholder="enter value"> &nbsp;
+    <b>Percentage 2 </b>
+    <input type="text" placeholder="enter value">&nbsp;
+    <b>Percentage 3 </b>
+    <input type="text" placeholder="enter value"> &nbsp;
+    <b>Percentage 4</b>
+    <input type="text" placeholder="enter value"> &nbsp;
+    <b>Percentage 5 </b>
+    <input type="text" placeholder="enter value"> &nbsp;
+    <br><br>
 
 
-  <b>Assessment Type</b>
-  <br>
-  <select name="Scrb1">
-  	<option value="Please select" selected>Please select</option>
-    <option value="Homework">Homework</option>
-    <option value="Quiz">Quiz</option>
-    <option value="Exam">Exam</option>
-    <option value="Poll">Poll</option>
-  </select>
+    <b>Assessment Type</b>
+    <br>
+    <select name="Scrb1">
+     <option value="Please select" selected>Please select</option>
+     <option value="Homework">Homework</option>
+     <option value="Quiz">Quiz</option>
+     <option value="Exam">Exam</option>
+     <option value="Poll">Poll</option>
+   </select>
 
-</fieldset>
+ </fieldset>
 </form> 
 <br><br>
 
@@ -57,72 +60,175 @@
 		<b>offer mode</b>
 		<br>
 		<div class=css1>
-	    <select name="Scrb2">
-	      <option value="please select">please select
-	      </option>
-	      <option value="assigned only">assigned only</option>
-	      <option value="offer mode">offer mode
-	      </option> 
-	  </div>
-	    </select>
-            <b>Retake Policy</b>
-	   
-               <select name="Scrb3">
-               	<div style="float:center;">
-               	
-	    		<option value="Please select">please select</option>
-	    		<option value="Once_only">Once_only</option>
-	    		<option value="Twice_only">Twice_only</option>
-	    		<option value="no_limit">no_limit</option>
-	    		<option value="Once_per_day_Only">Once_per_day_Only</option>
-	    	</div>
-	    	</select>
+     <select name="Scrb2">
+       <option value="please select">please select
+       </option>
+       <option value="assigned only">assigned only</option>
+       <option value="offer mode">offer mode
+       </option> 
+     </div>
+   </select>
 
-           <b>Validation Mode</b>
-           <select name="Scrb4">
-               	<div style="float:right;">
-               	
-	    		<option value="Please select">please select</option>
-	    		<option value="Twice_only">Show answer on Submit</option>
-	    		<option value="Show answer on close">Show answer on close</option>
-	    	</div>
-	    	</select>
+   <b>Retake Policy</b>
+   <select name="Scrb3">               	
+     <option value="Please select">please select</option>
+     <option value="Once_only">Once_only</option>
+     <option value="Twice_only">Twice_only</option>
+     <option value="no_limit">no_limit</option>
+     <option value="Once_per_day_Only">Once_per_day_Only</option>
+   </div>
+ </select>
 
-          
-      <br><br>
-     <b> Assessment Name</b>
-     <br>
-     <input type="text" placeholder="Please enter Assignment Name">&nbsp;&nbsp;&nbsp;&nbsp;
+ <b>Validation Mode</b>
+ <select name="Scrb4">
+  <div style="float:right;">
 
-     <b>Duration</b>
-     <input type="text" placeholder="30 minutes">
+   <option value="Please select">please select</option>
+   <option value="Twice_only">Show answer on Submit</option>
+   <option value="Show answer on close">Show answer on close</option>
+ </div>
+</select>
 
-     <br><br><br>
 
-     
-<div class="css1"
-    <b>Start Date and Time</b>
-    <br>
-    <input type="datetime-local" name="Startdatetime">
-    
-    </div>
-    <div style="float:right";
-    <b>Close date and time</b>
-    <input type="datetime-local" name="Enddatetime">
+<br><br>
+<b> Assessment Name</b>
+<br>
+<input type="text" placeholder="Please enter Assignment Name">&nbsp;&nbsp;&nbsp;&nbsp;
+
+<b>Duration</b>
+<input type="text" placeholder="30 minutes">
+
+<br><br><br>
+
+
+<div class="css1">
+  <b>Start Date and Time</b>
+  <br>
+  <input type="datetime-local" name="Startdatetime">
+
 </div>
-	</fieldset>
+<div style="float:right";
+<b>Close date and time</b>
+<input type="datetime-local" name="Enddatetime">
+</div>
+</fieldset>
 </form>
 <br><br>
 
 <form>
 	<fieldset>
-		<legend>Sections
-		</legend>
-	</fieldset>
-</form>
-	
-</body>
-</html>
+		<legend>Sections</legend>
+		<div class="css1">
+      <b>Class section</b>
+    </div>
+    <br>
+    <div class="css1">
+      <b>Start Date and Time</b>
+      <br>
+      <input type="datetime-local" name="Startdatetime">
+      <br>
+
+      <b>End date and Time</b>
+      <br>
+      <input type="datetime-local" name="Enddatetime">   
+    </div>
 
 
+
+    <div class="css1">
+      <b>Open Date and Time</b>
+      <br>
+      <input type="datetime-local" name="Startdatetime">
+      <br>
+
+      <b>End date and Time</b>
+      <br>
+      <input type="datetime-local" name="Enddatetime">   
+    </div>
+
+
+	    	<!-- option value="Open date and time">Start date and time</option>
+	    	
+        -->
+      </fieldset>
+    </form>
+
+
+  </body>
+  </html>
+  <br>
+  <br>
+
+
+
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>
+      Nextform
+    </title>
+    <style type="text/css">
+    .h3{
+     style="color:blue;"
+   }
+   .css2{
+    float:left;
+  }
+</style>
+</head>
+<body>
+
+  <input type="button" value="MACM">
+  <input type="button" value="Segments">
+  <input type="button" value="Questions">
+  <form>
+    <FIELDSET>
+      <h3 class=h3 >Segment </h3>
+      <
+      <b>Segment Position</b><br>
+      <div class=css2>
+        <input type="text" name="">
+      </div>
+
+      <div class=css2>
+        <input type="button" style="background-color:purple; color:white" value="set">
+      </div>
+
+
+
+
+      <div class=css2>
+        <b>Question Score</b>
+
+
+        <input type="text" placeholder="Enter Question Score">
+      </div>
+      <br>
+      <br>
+      <br>
+      <div class=css2>
+        <b>Selection Count</b>
+        <br>
+        <input type="text" placeholder="Please Enter Selection Count">
+
+        <b>Question Order</b>
+
+        <select mame="Scrb6">
+          <option value="Please Select">Please Select</option>
+          <option value="linear"> linear</option> 
+          <option value="Shuffle"> Shuffle
+          </option>
+        </select>
+        <br>
+
+        <br>
+        <div class="css2">
+         <input type="button" style="background-color:blue ; color:white" value="Add Questions">
+         <input type="button" style="background-color:green; color:white"value="Submit">
+       </div>
+
+     </FIELDSET>
+   </form>
+ </body>
+ </html>
 
