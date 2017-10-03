@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> MandTBank</title>
+	<link rel="stylesheet" href="Cssfiles/MandTbank.css">
+	<script type="text/javascript"></script>
+</head>
+
+
+
+
+<body>
+
+	<div  class="static">
+		<h2><b>M&T</b>Bank</h2>
+		<h4 class="topright"> Understanding What's Important </h4>
+		<div class="center">Main Navigation</div>
+	</div>	
+
+	<div class="div2"><a href="NewUser">Add New User</a></div>
+	<div class="div2">[full name <b>last name</b>]</div>
+	<div class="div2">[full name <b>last name</b>]</div>
+	<div class="div2">[full name <b>last name</b>]</div>
+	<div class="div2">[full name <b>last name</b>]</div>
+	<div class="div2">[full name <b>last name</b>]</div>
+	<div class="div2">[full name <b>last name</b>]</div>
+
+	<form>
+
+		<fieldset style="background-color:#e5d1c3">
+			<b>[first name last name] </b>-[Status]
+			<br>
+			<div  style="color:blue" style="float:left">Edit </div>
+			<div  style="color:red" style="float:left">Delete</div>
+
+			<center > <b>Service </b>
+
+				<br>
+				<input type="checkbox" name="Types of account" value="ACH-Monitor" checked>ACH-Monitor  
+                <br>
+				<input type="checkbox" name="Types of account" value="Escrow Online" checked>Escrow Online
+				<br>
+				<input type="checkbox" name="Types of account" value="eStatement" checked>eStatement
+				<br>
+				<input type="checkbox" name="Types of account" value="FTM" checked>FTM
+				<br>
+				<input type="checkbox" name="Types of account" value="CWP" checked>CWP
+
+
+
+			</center>
+		</div>
+	</fieldset>
+
+</form>
+
+<div class="div2">[full name <b>last name</b>]</div>
+<div class="div2">[full name <b>last name</b>]</div>
+<div class="div2">[full name <b>last name</b>]</div>
+<div class="div2">[full name <b>last name</b>]</div>
+<div class="div2">[full name <b>last name</b>]</div>
+
+
+
+
+	
+</body>
+</html>
