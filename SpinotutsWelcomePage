@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Cssfiles/Spinotuts.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/">
+  <style>
+  .position{position:absolute;
+  bottom:100px;
+  right:400px;
+  height:70px;
+  border:1px grey;
+  width:40px;
+
+}
+.position2{position:absolute;
+  bottom:100px;
+  right:220px;
+  height:40px;
+  border:1px grey;
+  width:80px;
+
+}
+
+.position{position:absolute;
+  bottom:100px;
+  right:300px;
+  height:40px;
+ 
+  width:100px;
+
+}
+
+
+
+.foot1{
+
+}
+</style>
+</head>
+
+    
+
+<body>
+	<div style="height:120px; background-color: #E5E4E2 ";></div>
+	
+	<!--<div class="jumbotron" style="height:100px; ">
+    -<div class="page-header" 
+                  style="background-color:900C3F;
+                  height:150px";>
+              -->
+		<h1  style="height:100px; 
+            color:white; 
+            background-color:#900C3F;  
+            padding-left:25px; 
+            padding:10px;
+            padding-top:50px; 
+            margin-top:0px;
+            margin-bottom:0px;"">WELCOME</h1>
+	</div>
+	<div style="background-color:#E5E4E2; height:250px; margin-top:0px">
+		
+	</div>
+	<div class="position" style="font-size:40px;border:2px solid grey;background-color:  white">Spino</div>
+		<div class="position2" style="font-size:40px;background-color: #900C3F;color:white;border:2px solid grey">tuts
+		
+
+	</div>
+
+	<!--<div style="width:200px;border:1px grey; float:right;text-decoration-color: black";><h1><b>Spino</b></h1></div>
+	<div style="width:150px;border:1px grey;float:right;background-color:#900C3F;color:white"><h1><b>tuts</b></h1>
+   </div>-->
+   <div>
+	<div style="background-color:#E5E4E2; height:100px; margin-top:0px">
+		
+	</div>
+	
+	<footer style="float:left;width:100%; padding:20px; background-color:#CCD1D1; "><p style="font-size:20px";>Teaching web education & skills</p>
+	
+	 
+		 
+	</footer>
+
+                  
+
+</div>
+</body>
+</html>
+
