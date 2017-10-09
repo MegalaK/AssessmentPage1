@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+<!-- Latest compiled and minified CSS -->
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="formwithJS.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+<!--<form>
+	<fieldset><center>
+		<legend><b>Signup</b></legend>
+		<b>UserName: </b>
+		<input type="text" placeholder="Enter UserName">
+		<br>
+		<br>
+		<b>Email: </b>
+		<input type="Email" placeholder="Enter your Email">
+		<br>
+		<br>
+		<b>Password: </b>
+		<input type="Password" placeholder="Enter your Password">
+		<br>
+		<br>
+    </scenter>
+	</fieldset>
+	
+</form>
+--><div class="col-lg-4"></div>
+   <div class="col-lg-4 container" style="border-style: solid; margin-top: 70px; border-color:#009999 ">
+  <h2 style="color:#009999">Sign up</h2>
+  <hr>
+  <form id='form' method='post'>
+  	<div class="form-group">
+      <label for="username">Your username</label>
+      <!-- <i class="glyphicon glyphicon-user"></i> -->
+      
+      <div class="inner-addon left-addon">
+      <i class="glyphicon glyphicon-user"></i> 
+      
+      <input type="text"  class="form-control" id="name" placeholder="Enter username" name="username"
+      maxlength="15">
+    </div>
+
+
+    <div class="form-group">
+      <label for="email">Your Email</label>
+      <div class="inner-addon left-addon">
+      <i class="glyphicon glyphicon-envelope"></i> 
+      <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" >
+    </div>
+    <div class="form-group">
+      <label for="pwd">Your password</label>
+      <div class="inner-addon left-addon">
+      <i class="glyphicon glyphicon-lock"></i> 
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" inlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+    </div>
+    <div class="form-group">
+      <label for="pwd">Please confirm your password</label>
+      <div class="inner-addon left-addon">
+      <i class="glyphicon glyphicon-lock"></i> 
+      <input type="password" class="form-control" id="confirm_password" placeholder="Enter password" name="pwd">
+    </div> 
+    
+    <br>
+    <p><input type="button" id="submit" class="pure-button pure-button-primary"  value='Submit'onclick="display()"  style="background-color: #009999;
+	color:white; 
+	float:right;" ></p>
+    
+	<script>
+     var name;
+     var email;
+    function username(){
+    	return document.getElementById("name").value;
+
+    }
+    function getemail(){
+    	return document.getElementById("email").value;
+    }
+     
+    function display(){
+    	name = username();
+    	email = getemail();
+    	window.alert(name + email);
+    	document.getElementById("form").submit();
+    }
+</script>
+   
+    <br>
+  
+</div>
+</form>
+</body>
+	
+</html>
