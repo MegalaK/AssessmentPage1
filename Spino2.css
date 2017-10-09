@@ -1,0 +1,41 @@
+.divposition{
+       position:static;
+       top:20px
+       height:70px;
+       left:30px;
+       width:40px;
+       background-color:#E5E4E2;
+       }
+
+ .divposition2{
+ 	  position:absolute;
+ 	  top:10px;
+ 	  left:70px;
+ 	  width:80px;
+ 	  height:40px;
+ 	  background-color:#E5E4E2;
+      }
+
+
+   .font1{
+   	       font-size:40px;
+           border:2px solid grey;
+           background-color:white;
+
+             }
+
+    .font2{
+    	font-size:40px;
+    	background-color:#900C3F;
+    	color:white;
+    	border:2px solid grey;
+        }
+
+.transbox {
+  margin: 0px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+    
