@@ -1,0 +1,30 @@
+.backgroundcolor{
+                 background-color:#E5E4E2
+     
+                 }
+.pageheaderstyle{
+                  background-color:#900C3F;
+                  height:150px;
+                 }
+
+
+.headi  
+{    
+            height:100px; 
+            color:white; 
+            background-color:#900C3F;  
+            padding-left:25px; 
+            padding:10px;
+            padding-top:50px; 
+            margin-top:0px;
+            margin-bottom:0px; 
+        }
+
+
+        .footer{
+          float:left;
+          width:100%; 
+          padding:20px; 
+          background-color:#CCD1D1; 
+          font-size:20px;
+        }
