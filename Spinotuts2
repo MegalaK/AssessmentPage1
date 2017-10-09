@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<head>
+    <title>Spino2ghjhgj</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Spino2.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+    .divposition{
+       position:absolute;
+       float:left;
+       top:30px;
+       height:25px;
+       left:155px;
+       width:60px;
+       
+       }
+       .divposition2{
+ 	  position:absolute;
+ 	  float:left;
+ 	  top:30px;
+ 	  left:210px;
+ 	  width:50px;
+ 	  height:25px;
+ 	  
+      }
+
+      .imgposition{
+      	position:absolute;
+      	left:200px;
+      	top:0px;
+      	z-index: -1;
+      }
+      .topleftposition{
+      	position:absolute;
+      	top:5px;
+      	left:5px;
+      	font-size:20px;
+      }
+      .bottomrightposition{
+      	position:absolute;
+      	bottom:8px;
+      	right:0px;
+      	font-size:20px;
+      	color:white;
+
+      }
+
+      .transbox {
+  margin: 0px;
+  background-color: white;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+  
+
+
+   .font1{
+   	       font-size:20px;
+           border:2px solid grey;
+           background-color:white;
+
+             }
+
+     .font2{
+    	font-size:20px;
+    	background-color:#900C3F;
+    	color:white;
+
+    	border:2px solid grey;
+        }
+       .editposition{
+       	position:absolute;
+       	right:100px;
+       	top:10px;
+       }
+       hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: #900C3F;
+} 
+</style>
+</head>
+
+<body>
+	<div class="container-fluid jumbotron" style="background-color:#E5E4E2">
+	 
+	
+        <div class="divposition font1">Spino</div>
+        <div class="divposition2 font2">tuts</div>
+        </div>
+
+     <div class="editposition">
+     	<input type="text" placeholder="Search">
+     	<button style="background-color:#900C3F" type="button" class="btn btn-sm"><span class="glyphicon glyphicon-search" ></span>
+      </button>
+     </div>
+
+   <nav class="navbar navbar-default">
+   	    <div class="container-fluid">
+   	    	<div class="navbar-header row"></div>
+   	    </div>
+   	    <div class="col-lg-2"  style="background-color:white;"></div>
+   	    	<ul class="nav navbar-nav col-lg-8" style="background-color:#585858;"">
+   	    		<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span style="color:white">Tutorials </span><span class="caret"></span></a>
+   	    		<ul class="dropdown-menu">
+                 <li><a href="#">Page 1-1</a></li>
+                 <li><a href="#">Page 1-2</a></li>
+                 <li><a href="#">Page 1-3</a></li>
+                </ul>
+                </li>
+                
+   	    		<li><a href="#"><span style="color:white">Articles</span></a></li>
+   	    		<li><a href="#"><span style="color:white">Sessions</span></a></li>
+   	    		<li><a href="#"><span style="color:white">Interviews & Employment</span></a></li>
+   	    		<li><a href="#"><span style="color:white">Blogs</span></a></li>
+   	    		<li><a href="#"><span style="color:white">EBooks</span></a></li>
+   	    		<li><a href="#"><span style="color:white">Online Tests</span></a></li>
+   	    		<li><a href="#"><span style="color:white">Sessions</span></a></li>
+   	    	</ul>
+   	    </div>
+   	    	</nav>
+   	     <div class="col-lg-1"></div>
+   	    <div class="col-lg-10 container" >
+   	    	
+   	    <div class="thumbnail imgposition">
+   	    	<a href="C:\HTML-Work\Imagesgrayblock.jpg" target="-blank">
+   	    		<img src="C:\HTML-Work\Images\grayblock.jpg" alt="Fjords" style="height:150px;width:800px;">
+   	     <div class="topleftposition transbox"><span style="color:white"> 
+
+            	Spino</span><span style="color:#900C3F;">Tuts</span>
+            	<br>
+            	
+            	<p >Largest Web Development Site</p>
+            	
+            	<p style="color:white">Educate Yourself!</p> 
+            </div>
+            <div class="bottomrightposition">
+            	<button style="background-color:#900C3F" type="button" class="btn btn-lg">Join</button>
+            </div>
+        
+   	    </div>
+            </a>
+        </div>
+       
+        
+
+        <hr>
+            
+
+   	    
+
+   
+
+
+</body>
+</html>
